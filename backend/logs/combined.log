@@ -264,3 +264,8 @@
 [2025-03-23T23:15:03.011Z] INFO: User registered: test@example.com
 [2025-03-23T23:18:37.673Z] INFO: User registered: mukhil@gmail.com
 [2025-03-23T23:19:09.665Z] INFO: User logged in: mukhil@gmail.com
+[2025-03-24T00:44:07.510Z] INFO: Registration failed: User already exists - mukhil@gmail.com
+[2025-03-24T00:44:17.416Z] INFO: User logged in: mukhil@gmail.com
+[2025-03-24T02:13:05.219Z] INFO: User logged in: mukhil@gmail.com
+[2025-03-24T02:16:21.932Z] WARN: Invalid login attempt for mukhil.p@gmail.com
+[2025-03-24T02:16:31.660Z] INFO: User registered: mukhil.p@gmail.com

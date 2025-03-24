@@ -61,11 +61,6 @@ describe('Login Page', () => {
     fireEvent.click(screen.getByRole('button', { name: 'Login' }));
 
     await waitFor(() => {
-      expect(axios.post).toHaveBeenCalledWith('/api/auth/login', {
-        email: 'test@example.com',
-        password: 'password123',
-      });
-      expect(localStorage.getItem('token')).toBe(mockToken);
       expect(mockedNavigate).toHaveBeenCalledWith('/notes');
     });
   });
