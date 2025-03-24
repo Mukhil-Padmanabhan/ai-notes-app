@@ -4,7 +4,7 @@ A full-stack application for managing personal notes with AI-powered sentiment a
 
 ## Overview
 
-AI Notes App is a modern note-taking application that leverages AI to analyze the sentiment of your notes. Built with a React frontend and Express/Node.js backend, it provides a clean interface for creating, organizing, and analyzing personal notes.
+AI Notes App is a smart, easy-to-use note-taking app that helps you stay organized while understanding how you feel. It’s built with a React frontend and an Express/Node.js backend. Just jot down your thoughts, and the app uses AI to analyze the sentiment behind your words—helping you gain insights into your emotions over time. Perfect for journaling, planning, or simply capturing your day.
 
 ## Features
 
