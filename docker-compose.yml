@@ -1,0 +1,49 @@
+version: '3.9'
+
+services:
+  mongo:
+    image: mongo:6.0
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - app-network
+    healthcheck:
+      test: ["CMD", "mongo", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  server:
+    build:
+      context: ./backend
+    restart: always
+    ports:
+      - "9000:9000"
+    depends_on:
+      - mongo
+    networks:
+      - app-network
+    env_file:
+      - ./backend/.env.docker
+
+  client:
+    build:
+      context: ./frontend
+    ports:
+      - "5173:5173"
+    restart: always
+    depends_on:
+      - server
+    env_file:
+      - ./frontend/.env.docker
+    networks:
+      - app-network
+
+volumes:
+  mongo-data:
+
+networks:
+  app-network:

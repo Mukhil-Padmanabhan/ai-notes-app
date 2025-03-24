@@ -1,0 +1,266 @@
+[2025-03-22T21:35:48.852Z] INFO: User registered: test@example.com
+[2025-03-22T21:35:48.868Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-22T21:35:48.870Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-22T21:35:53.871Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-22T21:35:53.873Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-22T21:42:33.651Z] INFO: User registered: test@example.com
+[2025-03-22T21:42:33.662Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-22T21:42:33.663Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-22T21:42:38.676Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-22T21:42:38.678Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-22T21:42:43.680Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-22T21:42:43.683Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-22T21:42:48.688Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-22T21:42:48.690Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-22T21:42:53.761Z] INFO: User registered: noteuser@example.com
+[2025-03-22T21:55:43.948Z] INFO: User registered: test@example.com
+[2025-03-22T21:55:44.031Z] INFO: User registered: test@example.com
+[2025-03-22T21:55:44.037Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-22T21:55:44.038Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-22T21:55:49.043Z] INFO: User registered: test@example.com
+[2025-03-22T21:55:49.123Z] INFO: User logged in: test@example.com
+[2025-03-22T21:55:49.210Z] INFO: User registered: test@example.com
+[2025-03-22T21:55:49.290Z] WARN: Invalid login attempt for test@example.com
+[2025-03-22T21:55:49.396Z] INFO: User registered: test@example.com
+[2025-03-22T21:56:35.151Z] INFO: User registered: test@example.com
+[2025-03-22T21:56:35.239Z] INFO: User registered: test@example.com
+[2025-03-22T21:56:35.247Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-22T21:56:35.248Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-22T21:56:40.272Z] INFO: User registered: test@example.com
+[2025-03-22T21:56:40.351Z] INFO: User logged in: test@example.com
+[2025-03-22T21:56:40.448Z] INFO: User registered: test@example.com
+[2025-03-22T21:56:40.524Z] WARN: Invalid login attempt for test@example.com
+[2025-03-22T21:56:40.606Z] INFO: User registered: test@example.com
+[2025-03-22T21:59:10.682Z] INFO: User registered: test@example.com
+[2025-03-22T21:59:10.770Z] INFO: User registered: test@example.com
+[2025-03-22T21:59:10.778Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-22T21:59:10.779Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-22T21:59:15.804Z] INFO: User registered: test@example.com
+[2025-03-22T21:59:15.880Z] INFO: User logged in: test@example.com
+[2025-03-22T21:59:15.965Z] INFO: User registered: test@example.com
+[2025-03-22T21:59:16.050Z] WARN: Invalid login attempt for test@example.com
+[2025-03-22T21:59:16.134Z] INFO: User registered: test@example.com
+[2025-03-22T22:02:53.758Z] INFO: User registered: test@example.com
+[2025-03-22T22:02:53.848Z] INFO: User registered: test@example.com
+[2025-03-22T22:02:53.855Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-22T22:02:53.856Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-22T22:02:58.882Z] INFO: User registered: test@example.com
+[2025-03-22T22:02:58.960Z] INFO: User logged in: test@example.com
+[2025-03-22T22:02:59.056Z] INFO: User registered: test@example.com
+[2025-03-22T22:02:59.131Z] WARN: Invalid login attempt for test@example.com
+[2025-03-22T22:02:59.212Z] INFO: User registered: test@example.com
+[2025-03-22T22:04:32.585Z] INFO: User registered: test@example.com
+[2025-03-22T22:04:32.680Z] INFO: User registered: test@example.com
+[2025-03-22T22:04:32.688Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-22T22:04:32.689Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-22T22:04:37.767Z] INFO: User registered: test@example.com
+[2025-03-22T22:04:37.846Z] INFO: User logged in: test@example.com
+[2025-03-22T22:04:37.932Z] INFO: User registered: test@example.com
+[2025-03-22T22:04:38.009Z] WARN: Invalid login attempt for test@example.com
+[2025-03-22T22:04:38.093Z] INFO: User registered: test@example.com
+[2025-03-23T11:34:38.234Z] ERROR: Registration error: Operation `users.findOne()` buffering timed out after 10000ms
+[2025-03-23T11:35:49.669Z] ERROR: Registration error: Operation `users.findOne()` buffering timed out after 10000ms
+[2025-03-23T11:36:35.172Z] ERROR: Registration error: Operation `users.findOne()` buffering timed out after 10000ms
+[2025-03-23T11:37:22.016Z] ERROR: Registration error: Operation `users.findOne()` buffering timed out after 10000ms
+[2025-03-23T11:37:49.766Z] INFO: User registered: test@example.com
+[2025-03-23T11:37:57.257Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-23T11:37:57.259Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-23T11:38:03.668Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-23T11:38:03.668Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-23T11:38:11.032Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-23T11:47:36.836Z] WARN: Invalid login attempt for mukhil.p@gmail.com
+[2025-03-23T11:47:48.257Z] INFO: User logged in: test@example.com
+[2025-03-23T12:19:04.353Z] INFO: User logged in: test@example.com
+[2025-03-23T12:24:17.341Z] INFO: User logged in: test@example.com
+[2025-03-23T13:02:21.858Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-23T13:02:27.062Z] INFO: User registered: test@gmail.com
+[2025-03-23T13:05:15.381Z] INFO: User registered: testingf111@gmail.com
+[2025-03-23T14:42:46.606Z] WARN: Invalid login attempt for mukhil.p@gmail.com
+[2025-03-23T14:43:29.690Z] INFO: User logged in: test@example.com
+[2025-03-23T19:00:48.375Z] ERROR: Login error: Illegal arguments: string, undefined
+[2025-03-23T19:00:58.257Z] INFO: Registration failed: User already exists - mukhil@gmail.com
+[2025-03-23T19:01:09.360Z] ERROR: Login error: Illegal arguments: string, undefined
+[2025-03-23T19:01:25.016Z] ERROR: Login error: Illegal arguments: string, undefined
+[2025-03-23T19:02:39.866Z] ERROR: Login error: Illegal arguments: string, undefined
+[2025-03-23T19:03:13.276Z] ERROR: Login error: Illegal arguments: string, undefined
+[2025-03-23T19:03:42.387Z] INFO: User logged in: mukhil@gmail.com
+[2025-03-23T19:11:09.403Z] INFO: User logged in: mukhil@gmail.com
+[2025-03-23T19:12:18.427Z] INFO: User logged in: mukhil@gmail.com
+[2025-03-23T19:12:42.710Z] INFO: User logged in: mukhil@gmail.com
+[2025-03-23T19:46:21.773Z] INFO: User logged in: mukhil@gmail.com
+[2025-03-23T19:51:02.156Z] INFO: User registered: mukhilppp@gmail.com
+[2025-03-23T20:03:17.592Z] INFO: Registration failed: User already exists - mukhilppp@gmail.com
+[2025-03-23T20:06:27.927Z] INFO: Registration failed: User already exists - mukhilppp@gmail.com
+[2025-03-23T20:06:29.851Z] INFO: Registration failed: User already exists - mukhilppp@gmail.com
+[2025-03-23T20:17:20.764Z] INFO: User registered: mukhilpasdasdpp@gmail.com
+[2025-03-23T20:17:48.169Z] INFO: User logged in: mukhilpasdasdpp@gmail.com
+[2025-03-23T20:28:30.641Z] INFO: User logged in: mukhilpasdasdpp@gmail.com
+[2025-03-23T20:38:07.172Z] INFO: User logged in: mukhilpasdasdpp@gmail.com
+[2025-03-23T20:54:26.053Z] INFO: User registered: test@example.com
+[2025-03-23T20:54:26.142Z] INFO: User registered: test@example.com
+[2025-03-23T20:54:26.151Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-23T20:54:26.233Z] INFO: User registered: test@example.com
+[2025-03-23T20:54:26.310Z] INFO: User logged in: test@example.com
+[2025-03-23T20:54:26.395Z] INFO: User registered: test@example.com
+[2025-03-23T20:54:26.475Z] WARN: Invalid login attempt for test@example.com
+[2025-03-23T20:54:26.564Z] INFO: User registered: test@example.com
+[2025-03-23T20:55:01.239Z] INFO: User registered: test@example.com
+[2025-03-23T20:55:01.330Z] INFO: User registered: test@example.com
+[2025-03-23T20:55:01.337Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-23T20:55:01.418Z] INFO: User registered: test@example.com
+[2025-03-23T20:55:01.494Z] INFO: User logged in: test@example.com
+[2025-03-23T20:55:01.574Z] INFO: User registered: test@example.com
+[2025-03-23T20:55:01.649Z] WARN: Invalid login attempt for test@example.com
+[2025-03-23T20:55:01.730Z] INFO: User registered: test@example.com
+[2025-03-23T20:55:45.475Z] INFO: User registered: test@example.com
+[2025-03-23T20:55:45.565Z] INFO: User registered: test@example.com
+[2025-03-23T20:55:45.573Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-23T20:55:45.657Z] INFO: User registered: test@example.com
+[2025-03-23T20:55:45.736Z] INFO: User logged in: test@example.com
+[2025-03-23T20:55:45.820Z] INFO: User registered: test@example.com
+[2025-03-23T20:55:45.896Z] WARN: Invalid login attempt for test@example.com
+[2025-03-23T20:55:45.978Z] INFO: User registered: testing@example.com
+[2025-03-23T20:55:58.821Z] INFO: User registered: test@example.com
+[2025-03-23T20:55:58.913Z] INFO: User registered: test@example.com
+[2025-03-23T20:55:58.921Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-23T20:55:59.004Z] INFO: User registered: test@example.com
+[2025-03-23T20:55:59.089Z] INFO: User logged in: test@example.com
+[2025-03-23T20:55:59.184Z] INFO: User registered: test@example.com
+[2025-03-23T20:55:59.260Z] WARN: Invalid login attempt for test@example.com
+[2025-03-23T20:56:15.995Z] INFO: User registered: test@example.com
+[2025-03-23T20:56:16.083Z] INFO: User registered: test@example.com
+[2025-03-23T20:56:16.091Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-23T20:56:16.174Z] INFO: User registered: test@example.com
+[2025-03-23T20:56:16.251Z] INFO: User logged in: test@example.com
+[2025-03-23T20:56:16.334Z] INFO: User registered: test@example.com
+[2025-03-23T20:56:16.410Z] WARN: Invalid login attempt for test@example.com
+[2025-03-23T21:21:43.514Z] INFO: User registered: test@example.com
+[2025-03-23T21:21:43.606Z] INFO: User registered: test@example.com
+[2025-03-23T21:21:43.615Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-23T21:21:43.700Z] INFO: User registered: test@example.com
+[2025-03-23T21:21:43.786Z] INFO: User logged in: test@example.com
+[2025-03-23T21:21:43.872Z] INFO: User registered: test@example.com
+[2025-03-23T21:21:43.951Z] WARN: Invalid login attempt for test@example.com
+[2025-03-23T21:21:45.494Z] ERROR: Note creation failed: DB Error
+[2025-03-23T21:21:45.673Z] ERROR: Error fetching notes Note.find(...).sort is not a function
+[2025-03-23T21:21:46.021Z] ERROR: Error analyzing sentiment DB Error
+[2025-03-23T21:21:46.388Z] ERROR: Failed to update note Update failed
+[2025-03-23T21:21:46.645Z] ERROR: Error deleting note Delete failed
+[2025-03-23T21:22:09.042Z] ERROR: Note creation failed: DB Error
+[2025-03-23T21:22:09.400Z] ERROR: Error analyzing sentiment DB Error
+[2025-03-23T21:22:09.753Z] ERROR: Failed to update note Update failed
+[2025-03-23T21:22:10.014Z] ERROR: Error deleting note Delete failed
+[2025-03-23T21:22:11.298Z] INFO: User registered: test@example.com
+[2025-03-23T21:22:11.381Z] INFO: User registered: test@example.com
+[2025-03-23T21:22:11.388Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-23T21:22:11.468Z] INFO: User registered: test@example.com
+[2025-03-23T21:22:11.546Z] INFO: User logged in: test@example.com
+[2025-03-23T21:22:11.628Z] INFO: User registered: test@example.com
+[2025-03-23T21:22:11.702Z] WARN: Invalid login attempt for test@example.com
+[2025-03-23T21:22:30.959Z] ERROR: Note creation failed: DB Error
+[2025-03-23T21:22:31.307Z] ERROR: Error analyzing sentiment DB Error
+[2025-03-23T21:22:31.650Z] ERROR: Failed to update note Update failed
+[2025-03-23T21:22:31.907Z] ERROR: Error deleting note Delete failed
+[2025-03-23T21:22:33.150Z] INFO: User registered: test@example.com
+[2025-03-23T21:22:33.231Z] INFO: User registered: test@example.com
+[2025-03-23T21:22:33.245Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-23T21:22:33.330Z] INFO: User registered: test@example.com
+[2025-03-23T21:22:33.405Z] INFO: User logged in: test@example.com
+[2025-03-23T21:22:33.484Z] INFO: User registered: test@example.com
+[2025-03-23T21:22:33.560Z] WARN: Invalid login attempt for test@example.com
+[2025-03-23T21:25:37.193Z] ERROR: Note creation failed: DB Error
+[2025-03-23T21:25:37.554Z] ERROR: Error analyzing sentiment DB Error
+[2025-03-23T21:25:37.909Z] ERROR: Failed to update note Update failed
+[2025-03-23T21:25:38.165Z] ERROR: Error deleting note Delete failed
+[2025-03-23T21:25:39.424Z] INFO: User registered: test@example.com
+[2025-03-23T21:25:39.506Z] INFO: User registered: test@example.com
+[2025-03-23T21:25:39.512Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-23T21:25:39.593Z] INFO: User registered: test@example.com
+[2025-03-23T21:25:39.671Z] INFO: User logged in: test@example.com
+[2025-03-23T21:25:39.753Z] INFO: User registered: test@example.com
+[2025-03-23T21:25:40.148Z] WARN: Invalid login attempt for test@example.com
+[2025-03-23T21:29:12.701Z] ERROR: Note creation failed: DB Error
+[2025-03-23T21:29:13.113Z] ERROR: Error analyzing sentiment DB Error
+[2025-03-23T21:29:13.536Z] ERROR: Failed to update note Update failed
+[2025-03-23T21:29:13.797Z] ERROR: Error deleting note Delete failed
+[2025-03-23T21:29:15.176Z] INFO: User registered: test@example.com
+[2025-03-23T21:29:15.273Z] INFO: User registered: test@example.com
+[2025-03-23T21:29:15.281Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-23T21:29:15.362Z] INFO: User registered: test@example.com
+[2025-03-23T21:29:15.440Z] INFO: User logged in: test@example.com
+[2025-03-23T21:29:15.521Z] INFO: User registered: test@example.com
+[2025-03-23T21:29:15.596Z] WARN: Invalid login attempt for test@example.com
+[2025-03-23T21:29:42.701Z] ERROR: Note creation failed: DB Error
+[2025-03-23T21:29:43.064Z] ERROR: Error analyzing sentiment DB Error
+[2025-03-23T21:29:44.077Z] ERROR: Failed to update note Update failed
+[2025-03-23T21:29:44.342Z] ERROR: Error deleting note Delete failed
+[2025-03-23T21:29:44.542Z] ERROR: Error analyzing sentiment Cast to ObjectId failed for value "invalid-id" (type string) at path "_id" for model "Note"
+[2025-03-23T21:29:45.882Z] INFO: User registered: test@example.com
+[2025-03-23T21:29:45.968Z] INFO: User registered: test@example.com
+[2025-03-23T21:29:45.975Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-23T21:29:46.080Z] INFO: User registered: test@example.com
+[2025-03-23T21:29:46.159Z] INFO: User logged in: test@example.com
+[2025-03-23T21:29:46.255Z] INFO: User registered: test@example.com
+[2025-03-23T21:29:46.338Z] WARN: Invalid login attempt for test@example.com
+[2025-03-23T21:30:05.793Z] ERROR: Note creation failed: DB Error
+[2025-03-23T21:30:06.142Z] ERROR: Error analyzing sentiment DB Error
+[2025-03-23T21:30:06.495Z] ERROR: Failed to update note Update failed
+[2025-03-23T21:30:06.759Z] ERROR: Error deleting note Delete failed
+[2025-03-23T21:30:06.933Z] ERROR: Error analyzing sentiment Cast to ObjectId failed for value "invalid-id" (type string) at path "_id" for model "Note"
+[2025-03-23T21:30:08.353Z] INFO: User registered: test@example.com
+[2025-03-23T21:30:08.436Z] INFO: User registered: test@example.com
+[2025-03-23T21:30:08.443Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-23T21:30:08.522Z] INFO: User registered: test@example.com
+[2025-03-23T21:30:08.597Z] INFO: User logged in: test@example.com
+[2025-03-23T21:30:08.678Z] INFO: User registered: test@example.com
+[2025-03-23T21:30:08.762Z] WARN: Invalid login attempt for test@example.com
+[2025-03-23T21:30:48.096Z] ERROR: Note creation failed: DB Error
+[2025-03-23T21:30:48.446Z] ERROR: Error analyzing sentiment DB Error
+[2025-03-23T21:30:48.798Z] ERROR: Failed to update note Update failed
+[2025-03-23T21:30:49.054Z] ERROR: Error deleting note Delete failed
+[2025-03-23T21:30:49.220Z] ERROR: Error analyzing sentiment Cast to ObjectId failed for value "invalid-id" (type string) at path "_id" for model "Note"
+[2025-03-23T21:30:50.629Z] INFO: User registered: test@example.com
+[2025-03-23T21:30:50.713Z] INFO: User registered: test@example.com
+[2025-03-23T21:30:50.720Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-23T21:30:50.803Z] INFO: User registered: test@example.com
+[2025-03-23T21:30:50.880Z] INFO: User logged in: test@example.com
+[2025-03-23T21:30:50.962Z] INFO: User registered: test@example.com
+[2025-03-23T21:30:51.037Z] WARN: Invalid login attempt for test@example.com
+[2025-03-23T21:31:42.677Z] ERROR: Note creation failed: DB Error
+[2025-03-23T21:31:43.041Z] ERROR: Error analyzing sentiment DB Error
+[2025-03-23T21:31:43.534Z] ERROR: Failed to update note Update failed
+[2025-03-23T21:31:43.789Z] ERROR: Error deleting note Delete failed
+[2025-03-23T21:31:43.953Z] ERROR: Error analyzing sentiment Cast to ObjectId failed for value "invalid-id" (type string) at path "_id" for model "Note"
+[2025-03-23T21:31:45.337Z] INFO: User registered: test@example.com
+[2025-03-23T21:31:45.421Z] INFO: User registered: test@example.com
+[2025-03-23T21:31:45.427Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-23T21:31:45.507Z] INFO: User registered: test@example.com
+[2025-03-23T21:31:45.583Z] INFO: User logged in: test@example.com
+[2025-03-23T21:31:45.665Z] INFO: User registered: test@example.com
+[2025-03-23T21:31:45.742Z] WARN: Invalid login attempt for test@example.com
+[2025-03-23T21:32:17.202Z] ERROR: Note creation failed: DB Error
+[2025-03-23T21:32:17.578Z] ERROR: Error analyzing sentiment DB Error
+[2025-03-23T21:32:17.939Z] ERROR: Failed to update note Update failed
+[2025-03-23T21:32:18.194Z] ERROR: Error deleting note Delete failed
+[2025-03-23T21:32:18.359Z] ERROR: Error analyzing sentiment Cast to ObjectId failed for value "invalid-id" (type string) at path "_id" for model "Note"
+[2025-03-23T21:32:19.730Z] INFO: User registered: test@example.com
+[2025-03-23T21:32:19.816Z] INFO: User registered: test@example.com
+[2025-03-23T21:32:19.822Z] INFO: Registration failed: User already exists - test@example.com
+[2025-03-23T21:32:19.902Z] INFO: User registered: test@example.com
+[2025-03-23T21:32:19.978Z] INFO: User logged in: test@example.com
+[2025-03-23T21:32:20.058Z] INFO: User registered: test@example.com
+[2025-03-23T21:32:20.132Z] WARN: Invalid login attempt for test@example.com
+[2025-03-23T21:33:39.561Z] INFO: User registered: mswathi012@gmail.com
+[2025-03-23T21:34:55.414Z] INFO: User registered: mswathi012@gmail.com
+[2025-03-23T21:35:50.494Z] INFO: User logged in: mswathi012@gmail.com
+[2025-03-23T21:43:57.384Z] WARN: Invalid login attempt for mswathi@gmail.com
+[2025-03-23T21:52:21.571Z] ERROR: Login error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017
+[2025-03-23T22:10:41.182Z] WARN: Invalid login attempt for mswathi@gmail.com
+[2025-03-23T22:10:51.541Z] INFO: Registration failed: User already exists - mswathi012@gmail.com
+[2025-03-23T22:10:58.503Z] INFO: User registered: mswathi@gmail.com
+[2025-03-23T22:11:12.818Z] INFO: User logged in: mswathi@gmail.com
+[2025-03-23T22:39:03.639Z] INFO: User registered: mukhil@gmail.com
+[2025-03-23T22:39:30.304Z] INFO: User logged in: mukhil@gmail.com
+[2025-03-23T23:15:03.011Z] INFO: User registered: test@example.com
+[2025-03-23T23:18:37.673Z] INFO: User registered: mukhil@gmail.com
+[2025-03-23T23:19:09.665Z] INFO: User logged in: mukhil@gmail.com

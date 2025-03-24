@@ -1,0 +1,143 @@
+openapi: 3.0.0
+info:
+  title: AI Notes API
+  version: 1.0.0
+  description: Documentation for authentication endpoints
+
+tags:
+  - name: Auth
+    description: Authentication-related operations
+
+paths:
+  /api/auth/register:
+    post:
+      summary: Register a new user
+      tags: [Auth]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AuthInput"
+      responses:
+        "201":
+          description: User created successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiResponse"
+              example:
+                statusCode: 201
+                status: Success
+                message: Registration successful
+                data:
+                  _id: 64b0f50e1a2c3a0012b45678
+                  email: user@example.com
+                  token: eyJhbGciOiJIUzI1NiIsInR...
+        "409":
+          description: User already exists
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              example:
+                statusCode: 409
+                status: Error
+                message: User already exists
+        "500":
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              example:
+                statusCode: 500
+                status: Error
+                message: Internal Server Error
+
+  /api/auth/login:
+    post:
+      summary: Login user
+      tags: [Auth]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/AuthInput"
+      responses:
+        "200":
+          description: Login successful
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiResponse"
+              example:
+                statusCode: 200
+                status: Success
+                message: Login successful
+                data:
+                  _id: 64b0f50e1a2c3a0012b45678
+                  email: user@example.com
+                  token: eyJhbGciOiJIUzI1NiIsInR...
+        "500":
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+
+components:
+  schemas:
+    AuthInput:
+      type: object
+      required:
+        - email
+        - password
+      properties:
+        email:
+          type: string
+          format: email
+          example: user@example.com
+        password:
+          type: string
+          format: password
+          example: securePassword123
+
+    ApiResponse:
+      type: object
+      properties:
+        statusCode:
+          type: integer
+          example: 201
+        status:
+          type: string
+          example: Success
+        message:
+          type: string
+          example: Registration successful
+        data:
+          type: object
+          example:
+            _id: 64a77e5fbc1e4c1234567890
+            email: user@example.com
+            token: eyJhbGciOiJIUzI1NiIsInR5...
+
+    ErrorResponse:
+      type: object
+      properties:
+        statusCode:
+          type: integer
+          example: 401
+        status:
+          type: string
+          example: Error
+        message:
+          type: string
+          example: Something went wrong
+
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT

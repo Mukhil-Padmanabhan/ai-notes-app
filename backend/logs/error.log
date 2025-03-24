@@ -1,0 +1,69 @@
+[2025-03-22T21:35:48.870Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-22T21:35:53.873Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-22T21:42:33.663Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-22T21:42:38.678Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-22T21:42:43.683Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-22T21:42:48.690Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-22T21:55:44.038Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-22T21:56:35.248Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-22T21:59:10.779Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-22T22:02:53.856Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-22T22:04:32.689Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-23T11:34:38.234Z] ERROR: Registration error: Operation `users.findOne()` buffering timed out after 10000ms
+[2025-03-23T11:35:49.669Z] ERROR: Registration error: Operation `users.findOne()` buffering timed out after 10000ms
+[2025-03-23T11:36:35.172Z] ERROR: Registration error: Operation `users.findOne()` buffering timed out after 10000ms
+[2025-03-23T11:37:22.016Z] ERROR: Registration error: Operation `users.findOne()` buffering timed out after 10000ms
+[2025-03-23T11:37:57.259Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-23T11:38:03.668Z] ERROR: Registration error: Invalid status code: User already exists
+[2025-03-23T19:00:48.375Z] ERROR: Login error: Illegal arguments: string, undefined
+[2025-03-23T19:01:09.360Z] ERROR: Login error: Illegal arguments: string, undefined
+[2025-03-23T19:01:25.016Z] ERROR: Login error: Illegal arguments: string, undefined
+[2025-03-23T19:02:39.866Z] ERROR: Login error: Illegal arguments: string, undefined
+[2025-03-23T19:03:13.276Z] ERROR: Login error: Illegal arguments: string, undefined
+[2025-03-23T21:21:45.494Z] ERROR: Note creation failed: DB Error
+[2025-03-23T21:21:45.673Z] ERROR: Error fetching notes Note.find(...).sort is not a function
+[2025-03-23T21:21:46.021Z] ERROR: Error analyzing sentiment DB Error
+[2025-03-23T21:21:46.388Z] ERROR: Failed to update note Update failed
+[2025-03-23T21:21:46.645Z] ERROR: Error deleting note Delete failed
+[2025-03-23T21:22:09.042Z] ERROR: Note creation failed: DB Error
+[2025-03-23T21:22:09.400Z] ERROR: Error analyzing sentiment DB Error
+[2025-03-23T21:22:09.753Z] ERROR: Failed to update note Update failed
+[2025-03-23T21:22:10.014Z] ERROR: Error deleting note Delete failed
+[2025-03-23T21:22:30.959Z] ERROR: Note creation failed: DB Error
+[2025-03-23T21:22:31.307Z] ERROR: Error analyzing sentiment DB Error
+[2025-03-23T21:22:31.650Z] ERROR: Failed to update note Update failed
+[2025-03-23T21:22:31.907Z] ERROR: Error deleting note Delete failed
+[2025-03-23T21:25:37.193Z] ERROR: Note creation failed: DB Error
+[2025-03-23T21:25:37.554Z] ERROR: Error analyzing sentiment DB Error
+[2025-03-23T21:25:37.909Z] ERROR: Failed to update note Update failed
+[2025-03-23T21:25:38.165Z] ERROR: Error deleting note Delete failed
+[2025-03-23T21:29:12.701Z] ERROR: Note creation failed: DB Error
+[2025-03-23T21:29:13.113Z] ERROR: Error analyzing sentiment DB Error
+[2025-03-23T21:29:13.536Z] ERROR: Failed to update note Update failed
+[2025-03-23T21:29:13.797Z] ERROR: Error deleting note Delete failed
+[2025-03-23T21:29:42.701Z] ERROR: Note creation failed: DB Error
+[2025-03-23T21:29:43.064Z] ERROR: Error analyzing sentiment DB Error
+[2025-03-23T21:29:44.077Z] ERROR: Failed to update note Update failed
+[2025-03-23T21:29:44.342Z] ERROR: Error deleting note Delete failed
+[2025-03-23T21:29:44.542Z] ERROR: Error analyzing sentiment Cast to ObjectId failed for value "invalid-id" (type string) at path "_id" for model "Note"
+[2025-03-23T21:30:05.793Z] ERROR: Note creation failed: DB Error
+[2025-03-23T21:30:06.142Z] ERROR: Error analyzing sentiment DB Error
+[2025-03-23T21:30:06.495Z] ERROR: Failed to update note Update failed
+[2025-03-23T21:30:06.759Z] ERROR: Error deleting note Delete failed
+[2025-03-23T21:30:06.933Z] ERROR: Error analyzing sentiment Cast to ObjectId failed for value "invalid-id" (type string) at path "_id" for model "Note"
+[2025-03-23T21:30:48.096Z] ERROR: Note creation failed: DB Error
+[2025-03-23T21:30:48.446Z] ERROR: Error analyzing sentiment DB Error
+[2025-03-23T21:30:48.798Z] ERROR: Failed to update note Update failed
+[2025-03-23T21:30:49.054Z] ERROR: Error deleting note Delete failed
+[2025-03-23T21:30:49.220Z] ERROR: Error analyzing sentiment Cast to ObjectId failed for value "invalid-id" (type string) at path "_id" for model "Note"
+[2025-03-23T21:31:42.677Z] ERROR: Note creation failed: DB Error
+[2025-03-23T21:31:43.041Z] ERROR: Error analyzing sentiment DB Error
+[2025-03-23T21:31:43.534Z] ERROR: Failed to update note Update failed
+[2025-03-23T21:31:43.789Z] ERROR: Error deleting note Delete failed
+[2025-03-23T21:31:43.953Z] ERROR: Error analyzing sentiment Cast to ObjectId failed for value "invalid-id" (type string) at path "_id" for model "Note"
+[2025-03-23T21:32:17.202Z] ERROR: Note creation failed: DB Error
+[2025-03-23T21:32:17.578Z] ERROR: Error analyzing sentiment DB Error
+[2025-03-23T21:32:17.939Z] ERROR: Failed to update note Update failed
+[2025-03-23T21:32:18.194Z] ERROR: Error deleting note Delete failed
+[2025-03-23T21:32:18.359Z] ERROR: Error analyzing sentiment Cast to ObjectId failed for value "invalid-id" (type string) at path "_id" for model "Note"
+[2025-03-23T21:52:21.571Z] ERROR: Login error: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017

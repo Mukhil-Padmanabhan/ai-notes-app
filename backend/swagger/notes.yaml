@@ -1,0 +1,288 @@
+openapi: 3.0.0
+info:
+  title: AI Notes API
+  version: 1.0.0
+  description: Documentation for notes-related operations
+
+tags:
+  - name: Notes
+    description: Operations related to user notes
+
+paths:
+  /api/notes:
+    post:
+      summary: Create a new note
+      tags: [Notes]
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/NoteInput"
+      responses:
+        "201":
+          description: Note created successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiResponse"
+              example:
+                statusCode: 201
+                status: Success
+                message: Note created successfully
+                data:
+                  _id: 64b0f50e1a2c3a0012b45678
+                  title: My Note Title
+                  content: This is a detailed note content with more than 10 characters.
+                  sentiment: neutral
+                  createdAt: "2024-03-23T12:00:00Z"
+                  updatedAt: "2024-03-23T12:00:00Z"
+        "400":
+          description: Validation failed
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              example:
+                statusCode: 400
+                status: Error
+                message: Title and content are required
+        "500":
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              example:
+                statusCode: 500
+                status: Error
+                message: Internal server error
+
+    get:
+      summary: Get all notes
+      tags: [Notes]
+      security:
+        - bearerAuth: []
+      responses:
+        "200":
+          description: A list of notes
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiResponse"
+              example:
+                statusCode: 200
+                status: Success
+                message: Notes fetched successfully
+                data:
+                  - _id: 64b0f50e1a2c3a0012b45678
+                    title: First Note
+                    content: Sample note
+                    createdAt: "2024-03-23T12:00:00Z"
+                    updatedAt: "2024-03-23T12:00:00Z"
+        "500":
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              example:
+                statusCode: 500
+                status: Error
+                message: Failed to fetch notes
+
+  /api/notes/{id}/analyze:
+    get:
+      summary: Analyze sentiment of a note
+      tags: [Notes]
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Sentiment analysis result
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiResponse"
+              example:
+                statusCode: 200
+                status: Success
+                message: Sentiment analysis completed
+                data:
+                  sentiment: positive
+        "404":
+          description: Note not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              example:
+                statusCode: 404
+                status: Not Found
+                message: Note not found
+        "500":
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              example:
+                statusCode: 500
+                status: Error
+                message: Error analyzing sentiment
+
+  /api/notes/{id}:
+    put:
+      summary: Update a note
+      tags: [Notes]
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/NoteInput"
+      responses:
+        "200":
+          description: Note updated
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiResponse"
+              example:
+                statusCode: 200
+                status: Success
+                message: Note updated successfully
+                data:
+                  _id: 64b0f50e1a2c3a0012b45678
+                  title: Updated Title
+                  content: Updated content
+                  user: "67e06c50532de8b06c900392"
+                  sentiment: "neutral"
+                  createdAt: "2025-03-23T20:28:41.635Z"
+                  updatedAt: "2025-03-23T20:38:18.284Z"
+        "404":
+          description: Note not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              example:
+                statusCode: 404
+                status: Not Found
+                message: Note not found
+        "500":
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              example:
+                statusCode: 500
+                status: Error
+                message: Failed to update note
+
+    delete:
+      summary: Delete a note
+      tags: [Notes]
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Note deleted
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ApiResponse"
+              example:
+                statusCode: 200
+                status: Success
+                message: Note deleted successfully
+                data: null
+        "404":
+          description: Note not found
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              example:
+                statusCode: 404
+                status: Not Found
+                message: Note not found
+        "500":
+          description: Server error
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ErrorResponse"
+              example:
+                statusCode: 500
+                status: Error
+                message: Error deleting note
+
+components:
+  schemas:
+    NoteInput:
+      type: object
+      required:
+        - title
+        - content
+      properties:
+        title:
+          type: string
+          example: My Note Title
+        content:
+          type: string
+          example: This is a detailed note content with more than 10 characters.
+
+    ApiResponse:
+      type: object
+      properties:
+        statusCode:
+          type: number
+        status:
+          type: string
+        message:
+          type: string
+        data:
+          type: object
+
+    ErrorResponse:
+      type: object
+      properties:
+        statusCode:
+          type: number
+          example: 400
+        status:
+          type: string
+          example: Error
+        message:
+          type: string
+          example: Something went wrong
+
+securitySchemes:
+  bearerAuth:
+    type: http
+    scheme: bearer
+    bearerFormat: JWT
