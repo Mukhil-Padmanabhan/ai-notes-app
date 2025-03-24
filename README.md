@@ -163,6 +163,19 @@ cd frontend
 npm run test
 ```
 
+## Future Improvements
+- Adding provision for refreshing JWT tokens on expiry.
+- Adding a logout API to blacklist the unexpired JWT tokens ( The stateless nature of JWT would no longer exist as we would need to store it in the DB. Also would need a job to periodically clear the blackisted tokens )
+- Adding redis to cache notes.
+- In case the amount of notes increases largely, add batched processing of the notes (Pagination / load on demand).
+- Encoding the Note's content for better user privacy.
+- Provision to lock notes.
+- Provision to add attachments / media.
+- Provision to share Notes.
+- User Profile module with various customizations and settings
+- To have more modular approach and for scaling ML and NLP features, have them as seperate microservice and probably use something advanced like emotion-roberta for Sentiment analysis
+
+
 ## License
 
 MIT
