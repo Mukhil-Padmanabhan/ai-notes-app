@@ -71,8 +71,8 @@ const Notes = () => {
     <>
       {/* Modal */}
       {(selectedNote || isEditing) && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white dark:bg-gray-800 p-8 rounded-xl shadow-lg w-full max-w-2xl relative">
+        <div className="fixed inset-0 bg-gray-600 bg-opacity-10 flex items-center justify-center z-50">
+          <div className="bg-gray-800 dark:bg-gray-800 p-8 rounded-xl shadow-lg w-full max-w-2xl relative">
             <div className="flex justify-between items-center mb-5">
               <h2 className="text-2xl font-semibold text-center w-full">
                 {selectedNote?._id ? 'Edit Note' : 'Add Note'}
