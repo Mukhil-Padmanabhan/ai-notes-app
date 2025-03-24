@@ -43,6 +43,12 @@ AI Notes App is a smart, easy-to-use note-taking app that helps you stay organiz
 - MongoDB (local or Atlas)
 - Docker and Docker Compose (for containerized deployment)
 
+### Clone repo
+```
+git clone https://github.com/Mukhil-Padmanabhan/ai-notes-app.git
+cd ai-notes-app
+```
+
 ### Running the application with Docker alone (Recommended)
 
 1. **Using Docker Compose**
