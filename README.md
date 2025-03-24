@@ -124,7 +124,8 @@ This approach combines the benefits of local development with a containerized da
    - Frontend: http://localhost:5173
    - Backend API: http://localhost:9000
    - API Documentation: http://localhost:9000/api-docs
-
+2. **Github Actions**
+   The workflow for the automatic Test execution can be found here https://github.com/Mukhil-Padmanabhan/ai-notes-app/actions
 ## API Documentation
 
 The API is documented using Swagger UI and is available at `/api-docs` when the server is running.
