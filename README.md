@@ -43,51 +43,19 @@ AI Notes App is a modern note-taking application that leverages AI to analyze th
 - MongoDB (local or Atlas)
 - Docker and Docker Compose (for containerized deployment)
 
-### Local Development Setup
+### Running the application with Docker alone (Recommended)
 
-1. **Clone the repository**
+1. **Using Docker Compose**
    ```
-   git clone https://github.com/Mukhil-Padmanabhan/ai-notes-app.git
-   cd ai-notes-app
-   ```
-
-2. **Backend Setup**
-   ```
-   cd backend
-   npm install
+   docker compose up --build
    ```
    
-   Create a `.env.local` file with these variables:
-   ```
-   MONGO_URI=mongodb://localhost:27017/ai-notes
-   PORT=9000
-   JWT_SECRET=your_secret_key
-   ```
+   This will build and start the MongoDB database, backend, and frontend containers.
 
-3. **Frontend Setup**
-   ```
-   cd frontend
-   npm install
-   ```
-   
-   Create a `.env.local` file with:
-   ```
-   VITE_API_URL=http://localhost:9000
-   ```
-
-4. **Start Development Servers**
-   
-   For backend:
-   ```
-   cd backend
-   npm run dev
-   ```
-   
-   For frontend:
-   ```
-   cd frontend
-   npm run dev
-   ```
+2. **Access the application**
+   - Frontend: http://localhost:5173
+   - Backend API: http://localhost:9000
+   - API Documentation: http://localhost:9000/api-docs
 
 ### Running with MongoDB in Docker (Hybrid Approach)
 
@@ -102,29 +70,19 @@ If you want to run only MongoDB in Docker but run the frontend and backend local
    ```
    # Terminal 1
    cd frontend
+   npm i
    npm run dev
    
    # Terminal 2
    cd backend
+   npm i
    npm run dev
    ```
 
 This approach combines the benefits of local development with a containerized database.
 
-### Docker Deployment
 
-1. **Using Docker Compose**
-   ```
-   docker-compose up --build
-   ```
-   
-   This will build and start the MongoDB database, backend, and frontend containers.
-
-2. **Access the application**
-   - Frontend: http://localhost:5173
-   - Backend API: http://localhost:9000
-   - API Documentation: http://localhost:9000/api-docs
-2. **Github Actions**
+**Github Actions**
    The workflow for the automatic Test execution can be found here https://github.com/Mukhil-Padmanabhan/ai-notes-app/actions
 ## API Documentation
 
@@ -146,9 +104,9 @@ The API is documented using Swagger UI and is available at `/api-docs` when the 
 ## Testing
 
 The project includes test suites for both frontend and backend.
-- Frontend and Backend tests done with over 80% coverage.
-- Test Cases listed to conduct Manual Testing
-- Intgration tests of the NLP module with the APIs
+- Frontend and Backend unit tests were  done with over 80% coverage.
+- Test Cases listed to conduct Manual Testing.
+- Intgration tests of the NLP module with the APIs.
 - Postman test suite can be found here - https://github.com/Mukhil-Padmanabhan/ai-notes-app/blob/main/AINotes.postman_collection.json 
 
 ### Backend Tests
@@ -173,7 +131,7 @@ npm run test
 - Provision to add attachments / media.
 - Provision to share Notes.
 - User Profile module with various customizations and settings
-- To have more modular approach and for scaling ML and NLP features, have them as seperate microservice and probably use something advanced like emotion-roberta for Sentiment analysis
+- To have more modular approach and for scaling ML and NLP features, have them as seperate microservice and probably use something advanced like emotion-roberta for Emotional analysis
 
 
 ## License
